@@ -4,5 +4,6 @@ class Appointment
     @doctor = doctor
     self.doctor = doctor
     doctor.add_appointment(date)
+  end
     
 end
