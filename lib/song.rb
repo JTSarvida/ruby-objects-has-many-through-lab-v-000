@@ -6,6 +6,6 @@ class Song
     @name = name
     @genre = genre
     @artist
-    @genre
+    @genre.add_method
   end
 end
