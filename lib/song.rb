@@ -6,6 +6,5 @@ class Song
     @name = name
     @genre = genre
     @artist
-    @genre.add_method(self)
   end
 end
