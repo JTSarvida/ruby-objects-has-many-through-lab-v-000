@@ -6,7 +6,7 @@ class Appointment
     @date = date
     @doctor = doctor
     self.doctor = doctor
-    doctor.add_appointment(date)
+    doctor.add_appointment(self)
   end
     
 end
