@@ -6,6 +6,5 @@ class Song
     @name = name
     @genre = genre
     @artist
-    @genre.song = self
   end
 end
